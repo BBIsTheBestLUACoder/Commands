@@ -12205,7 +12205,7 @@ task.spawn(function()
 	
 	if success then
 		if currentVersion ~= latestVersionInfo.Version then
-			notify('Outdated','Get the new version at infyiff.github.io')
+			notify('Custom','just a pro custom')
 		end
 		
 		if latestVersionInfo.Announcement and latestVersionInfo.Announcement ~= '' then
