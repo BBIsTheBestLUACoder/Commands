@@ -43,7 +43,7 @@ local ChatAdded = Scroller.ChildAdded:Connect(function(x)
     end
 end)
 -- CRASHER --
-local Message = "⛓⛓⛓⛓⛓⛓⛓⛓⛓⛓⛓⛓⛓⛓⛓⛓⛓⛓⛓⛓⛓⛓⛓⛓⛓⛓⛓⛓"
+local Message = "⛓⛓⛓⛓⛓⛓"
 local Unicode = " "
 Message = Message .. Unicode:rep(200 - #Message)
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
